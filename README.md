@@ -1,4 +1,4 @@
-## AIPI Homework 2: Implement double DQN
+# AIPI Homework 2: Implement double DQN
 
 ## Overview
 This Jupyter Notebook demonstrates the implementation and training of Deep Reinforcement Learning (DRL) models using stable-baselines3. The project is centered around experimenting with DRL in a controlled environment.
