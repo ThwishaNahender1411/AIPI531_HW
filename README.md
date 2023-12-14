@@ -1,16 +1,21 @@
 # AIPI Homework 3: Session-Based DRL Recommenders
 
-## Introduction
-(TODO: Add a brief introduction about the project, its scope, and objectives.)
-
 ## Project Overview
 This project is part of the AIPI Homework 3, focusing on the development and evaluation of session-based Deep Reinforcement Learning recommenders. The primary goal is to assess the impact of incorporating item features into these recommender systems, especially in the context of e-commerce applications.
 
 ## Methodology
-(TODO: Elaborate on the methodology used in the project. This should include details about the data preprocessing steps, the DRL models implemented, and any specific techniques used for incorporating item features.)
 
-## Results
-(TODO: Provide a summary of the findings. This section should highlight how the inclusion of item features affected the performance of the DRL recommenders. Include any relevant statistics or graphs if available.)
+Data Preprocessing Steps:
+
+1. Data Merging and Cleaning: The item properties data is concatenated, and the events data is sorted and processed.
+2. Feature Extraction and Handling Missing Data: Features like 'categoryid' and 'parentid' are extracted from the item data. Missing items in the events data are identified, and their missing values are handled.
+3. One-Hot Encoding: Item features are transformed using one-hot encoding, converting categorical data into a format suitable for machine learning models.
+
+DRL Models Implemented:
+
+1. Feature Engineering: The project involves extracting and processing item-related features from the datasets.
+2. One-Hot Encoding for Categorical Features: Incorporate categorical item features into the model.
+3. DRL Models: The item features, once processed and encoded, are used as input to the DRL models.
 
 ## Conclusion
 Successfully trained and compared session-based DRL recommenders with and without item features. The inclusion of item features significantly enhances the recommendation performance for e-commerce applications, demonstrating the value of incorporating additional item-level information into the recommendation process.
@@ -21,9 +26,5 @@ Successfully trained and compared session-based DRL recommenders with and withou
 - `SNQN.py`, `SNQN_new.py`: Helper scripts for the SNQN model.
 - `SNQN_Features.py`, `SNQN_Features_new.py`: Scripts related to the SNQN model with item features.
 
-## How to Run
-(TODO: Provide instructions on how to set up and run the project. Include any requirements for software or data.)
 
-## Acknowledgements
-(TODO: Acknowledge any contributions or resources that were vital for the project.)
 
